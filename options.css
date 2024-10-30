@@ -1,0 +1,115 @@
+.BI{
+  border-color:silver;
+  border-style:solid;
+  border-width:0 1px;
+  margin:0 auto;
+  max-width:77em;
+  padding:0 2em;
+  text-align:center;
+}
+.aGauche{
+  text-align:left;
+}
+.BI h3{
+border-top:1px dotted silver;
+font-family:"Avant Garde";
+font-size:1.5em;
+margin:1em auto;
+max-width:27em;
+padding-top:1em;
+}
+
+.BI form{
+  border-top:1px solid silver;
+}
+
+.BI table{
+  margin: 0 auto;
+  text-align:center;
+  border-collapse: collapse;
+  margin-bottom:2em;
+}
+td, th{
+  border:1px solid gray;
+  padding:3px 12px;
+}
+td img[alt=Modify]{
+display:block;
+float:right;
+margin-left:-20px;
+position:relative;
+right:3px;
+top:4px;
+}
+td span{
+  display:block;
+  float:left;
+  margin-right:10px;
+}
+td img{
+  cursor:pointer;
+}
+ol{
+  margin:0 auto;
+  max-width:58em;
+}
+.ordreIndex{
+  margin:0 auto;
+  max-width:27em;
+  text-align:left;
+}
+.manageIndex h3{
+  margin-top:0;
+  border-top:0;
+}
+.manageIndex .valider{
+  margin-top:0;
+}
+.deletable input{
+  text-decoration:line-through;
+  color:gray !important;
+}
+.manageIndex .nonEditable input{
+  border:1px solid transparent;
+  background:0;
+  margin:0;
+  color:black;
+}
+.manageIndex .editable input{
+  margin:0;
+}
+.editable img{
+  display:none !important;
+}
+.nonEditable img{
+  display:block !important;
+}
+.deletable img{
+  z-index:-1;
+}
+.optionsAff ul{
+  margin:0 auto;
+  max-width:27em;
+  text-align:left;
+}
+.importation{
+  border-top:1px solid silver;
+  margin-top:3em;
+}
+.importation h3{
+  border:0;
+  padding-top:0;
+}
+.valider{
+cursor:pointer;
+font-family:Avant Garde;
+font-size:1.5em;
+margin-top:1.5em;
+}
+#dontForgetValider{
+  position:fixed;
+  bottom:0;
+right:0;
+z-index:42;
+margin:0;
+}

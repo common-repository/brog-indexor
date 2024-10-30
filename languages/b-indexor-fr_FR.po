@@ -1,0 +1,261 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010 Brogol
+# This file is distributed under the same license as the brog-indexor package.
+# FIRST AUTHOR <brogol@ymail.com>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/brog-indexor\n"
+"POT-Creation-Date: 2010-09-04 12:26+0000\n"
+"PO-Revision-Date: 2010-11-01 15:00+0000\n"
+"Last-Translator: FULL NAME <brogol@ymail.com>\n"
+"Language-Team: LANGUAGE <brogol@ymail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../../indexor.php:202
+msgid "New index:"
+msgstr "Nouvel index :"
+
+#: ../indexor.php:202
+msgid ""
+"To add several index, separate them with semicolons (ex: index1<strong>;</"
+"strong> index2)."
+msgstr ""
+
+#: ../indexor.php:205
+msgid "Vignette's URL"
+msgstr "URL de la vignette"
+
+#: ../indexor.php:206
+msgid "Custom title"
+msgstr "Titre personnalisé"
+
+#: ../options.php:7
+msgid "Display yours posts in nice index."
+msgstr "Présentez vos articles dans de jolis index tout en gardant un maximum de libertés."
+
+#: ../options.php:11
+msgid ""
+"This plugin let you display post lists of your index in alphabetical order "
+"with the title and the vignette of each post. Vignettes size are based on "
+"thumbnails size of your wordpress installation. They match to the first "
+"image find in the post. If your post doesn't have any images in his content "
+"or specified in the custom field, it's the default vignette which is display."
+msgstr "Ce plugin vous permet d'afficher la liste des liens des articles par "
+"ordre alphabétique avec le titre de l'article et sa vignette. La vignette "
+"correspondent à la première image - ou sa miniature si elle existe - "
+"trouvée dans l'article. Si l'article ne comprend pas d'images et qu'aucune "
+"image spécifique n'a été précisée, c'est la vignette par défaut qui s'affiche."
+
+#: ../options.php:14
+msgid ""
+"To <strong>display an index</strong>, you just have to put the code "
+"<code><strong>[index=</strong>your_index<strong>]</strong></code> in a post "
+"or a page. All linked posts to this index will be automatically displayed."
+msgstr "Pour <strong>afficher un index</strong>, il vous suffit de mettre le "
+"code <code><strong>[index=</strong>nom de votre index<strong>]</strong></code> "
+"dans une page ou un article. Tous les articles associés avec l'index demandé "
+"seront alors affichés automatiquement."
+
+#: ../options.php:21
+msgid "You do not have sufficient permissions to access options of this page."
+msgstr "Désolé, vous n'avez pas les droits suffisants pour accéder à cette page"
+
+#: ../options.php:109
+#, php-format
+msgid "Importation in %s"
+msgstr "Importation dans l'index %s"
+
+#: ../options.php:128
+msgid " is already in this index."
+msgstr " est déjà dans cet index."
+
+#: ../options.php:133
+msgid "Adding "
+msgstr "Ajout de "
+
+#: ../options.php:140
+#, php-format
+msgid ""
+"Congratulations, <strong>%d</strong> posts have been added in the index "
+"<strong>%s</strong>."
+msgstr "Félicitations, vous avez ajouté <strong>%d</strong> articles dans "
+"l'index <strong>%s</strong>."
+
+#: ../options.php:143
+#, php-format
+msgid "The founded post was already indexed."
+msgid_plural "The %d founded posts were already indexed."
+msgstr[0] "L'article trouvé était déjà indexé."
+msgstr[1] "Les %d articles trouvés étaient déjà indexés."
+
+#: ../options.php:145
+msgid "Sorry, no post found in the html code given. :("
+msgstr "Désolé, aucun article trouvé dans le code html donné. :("
+
+#: ../options.php:150
+msgid "Importation failed"
+msgstr "Échec de l'importation"
+
+#: ../options.php:151
+msgid "Please put an index name to import your posts."
+msgstr "Vous n'avez pas indiqué le nom de l'index dans lequel importer vos articles."
+
+#: ../options.php:175
+msgid "Manage your index"
+msgstr "Gérer vos index"
+
+#: ../options.php:176
+msgid "Index Name"
+msgstr "Nom de l'index"
+
+#: ../options.php:176
+msgid "Posts"
+msgstr "Articles"
+
+#: ../options.php:176
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../options.php:179
+msgid "None of your posts are indexed yet."
+msgstr "Aucun de vos articles n'est encore indexé."
+
+#: ../options.php:190 options.php:242 options.php:243
+msgid "Save modifications"
+msgstr "Valider tous les changements"
+
+#: ../options.php:192
+msgid "Display options"
+msgstr "Options d'affichage"
+
+#: ../options.php:193
+msgid "If nothing checked, titles will be displayed."
+msgstr "Si rien n'est sélectionné, les titres s'afficheront par défaut"
+
+#: ../options.php:196
+msgid "Display popup vignettes."
+msgstr "Afficher les vignettes au passage de la souris"
+
+#: ../options.php:198
+msgid "Display popup excerpt."
+msgstr "Afficher les extraits au passage de la souris"
+
+#: ../options.php:200
+msgid "Display vignettes."
+msgstr "Afficher les vignettes"
+
+#: ../options.php:200
+msgid ""
+"Do not check this if you are concerned about optimizing your website load "
+"time."
+msgstr "Ne cocher pas cette option si vous voulez optimiser le temps de chargement de la page."
+
+#: ../options.php:202
+msgid "Display titles."
+msgstr "Afficher les titres"
+
+#: ../options.php:205
+msgid "Index order"
+msgstr "Ordre des index"
+
+#: ../options.php:207
+msgid "Alphabetical"
+msgstr "Alphabétique"
+
+#: ../options.php:208
+msgid "Chronological"
+msgstr "Chronologique"
+
+#: ../options.php:209
+msgid "Reverse chronological"
+msgstr "Chronologique inversé"
+
+#: ../options.php:212
+msgid "Vignettes size"
+msgstr "Taille des vignettes"
+
+#: ../options.php:213
+msgid ""
+"The plugin always try to display the wordpress thumbnails, so using the "
+"thumbnail wordpress size is very optimized."
+msgstr ""
+
+#: ../options.php:216
+msgid "Use wordpress thumbnails size."
+msgstr "Le plugin affiche les miniatures que wordpress génère lors de "
+"l'upload d'une image si elles correspondent à la taille d'affichage que vous choisissez."
+
+#: ../options.php:217
+msgid "Width"
+msgstr "Largeur"
+
+#: ../options.php:218
+msgid "Height"
+msgstr "Hauteur"
+
+#: ../options.php:221
+msgid "Default vignette"
+msgstr "Choix de la vignette par défaut"
+
+#: ../options.php:223
+msgid ""
+"Choose the vignette to display when there is no image associate with a post:"
+msgstr "Choisissez la vignette à afficher si aucune image n'est présente dans l'article ou associée à celui-ci&nbsp;:"
+
+#: ../options.php:226
+msgid "default vignette"
+msgstr "vignette par défaut"
+
+#: ../options.php:228
+msgid "Other"
+msgstr "Autre"
+
+#: ../options.php:228
+#, php-format
+msgid "&mdash;&nbsp;image's URL, %dx%dpx preferably:"
+msgstr "&mdash;&nbsp;indiquez l'URL de votre image, %dx%dpx de préférence&nbsp;:"
+
+#: ../options.php:233
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../options.php:235
+msgid "Use categories instead indexor system."
+msgstr "Utiliser les catégories pour les index au lieu des champs personnalisés."
+
+#: ../options.php:236
+msgid ""
+"So, you have to use [index=category-id]. Look the <em>Categories</em> page "
+"to know your category id. And the indexor box will be useless"
+msgstr "Utilisez alors le marqueur [index=identifiant-de-la-categorie]. Regardez la page "
+"<em>Catégories</em> (sous-menu d'<em>Articles</em>) pour connaître l'identifiant de vos catégories."
+
+#: ../options.php:247
+msgid "Index importation"
+msgstr "Importation d'index"
+
+#: ../options.php:248
+msgid ""
+"The importation recognize all URL which match <code>href=\"http://yoursite."
+"com/your-post/\"</code> and verify if <code>your-post</code> is a real post "
+"in your blog. If it's true, your post is adding in the given index."
+msgstr "L'importation reconnaît toutes les URL du type "
+"<code>href=\"http://votresite.com/votre-article/\"</code>. "
+"Elle vérifie alors que <code>votre-site</code> est un article existant. "
+"Si c'est le cas, l'article est mis à jour avec l'ajout du champ personnalisé "
+"correspondant à l'index que vous importez."
+
+#: ../options.php:251
+msgid ""
+"Indicate the exact name of the index in which you want to import yours posts:"
+msgstr "Indiquez le nom exact de l'index dans lequel vous voulez importer vos articles&nbsp;:"
+
+#: ../options.php:255
+msgid "Paste here the html code where are the posts you want importing"
+msgstr "Copiez la partie du code html de la page contenant les liens des articles concernés&nbsp;:"

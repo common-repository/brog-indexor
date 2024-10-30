@@ -1,0 +1,14 @@
+.BIvignette{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 150px; /*adapter cette valeur à la largeur de vos vignettes*/
+    margin: 10px;
+}
+.BIvignette .titre{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.BIvignette:hover img{
+    opacity: 0.7;
+}

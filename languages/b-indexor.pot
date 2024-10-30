@@ -1,0 +1,247 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/brog-indexor\n"
+"POT-Creation-Date: 2010-09-04 12:26+0000\n"
+"PO-Revision-Date: 2010-11-01 15:00+0000\n"
+"Last-Translator: FULL NAME <brogol@ymail.com>\n"
+"Language-Team: LANGUAGE <brogol@ymail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../../indexor.php:202
+msgid "New index:"
+msgstr ""
+
+#: ../indexor.php:202
+msgid ""
+"To add several index, separate them with semicolons (ex: index1<strong>;</"
+"strong> index2)."
+msgstr ""
+
+#: ../indexor.php:205
+msgid "Vignette's URL"
+msgstr ""
+
+#: ../indexor.php:206
+msgid "Custom title"
+msgstr ""
+
+#: ../options.php:7
+msgid "Display yours posts in nice index."
+msgstr ""
+
+#: ../options.php:11
+msgid ""
+"This plugin let you display post lists of your index in alphabetical order "
+"with the title and the vignette of each post. Vignettes size are based on "
+"thumbnails size of your wordpress installation. They match to the first "
+"image find in the post. If your post doesn't have any images in his content "
+"or specified in the custom field, it's the default vignette which is display."
+msgstr ""
+
+#: ../options.php:14
+msgid ""
+"To <strong>display an index</strong>, you just have to put the code "
+"<code><strong>[index=</strong>your_index<strong>]</strong></code> in a post "
+"or a page. All linked posts to this index will be automatically displayed."
+msgstr ""
+
+#: ../options.php:21
+msgid "You do not have sufficient permissions to access options of this page."
+msgstr ""
+
+#: ../options.php:109
+#, php-format
+msgid "Importation in %s"
+msgstr ""
+
+#: ../options.php:128
+msgid " is already in this index."
+msgstr ""
+
+#: ../options.php:133
+msgid "Adding "
+msgstr ""
+
+#: ../options.php:140
+#, php-format
+msgid ""
+"Congratulations, <strong>%d</strong> posts have been added in the index "
+"<strong>%s</strong>."
+msgstr ""
+
+#: ../options.php:143
+#, php-format
+msgid "The founded post was already indexed."
+msgid_plural "The %d founded posts were already indexed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../options.php:145
+msgid "Sorry, no post found in the html code given. :("
+msgstr ""
+
+#: ../options.php:150
+msgid "Importation failed"
+msgstr ""
+
+#: ../options.php:151
+msgid "Please put an index name to import your posts."
+msgstr ""
+
+#: ../options.php:175
+msgid "Manage your index"
+msgstr ""
+
+#: ../options.php:176
+msgid "Index Name"
+msgstr ""
+
+#: ../options.php:176
+msgid "Posts"
+msgstr ""
+
+#: ../options.php:176
+msgid "Delete"
+msgstr ""
+
+#: ../options.php:179
+msgid "None of your posts are indexed yet."
+msgstr ""
+
+#: ../options.php:190 options.php:242 options.php:243
+msgid "Save modifications"
+msgstr ""
+
+#: ../options.php:192
+msgid "Display options"
+msgstr ""
+
+#: ../options.php:193
+msgid "If nothing checked, titles will be displayed."
+msgstr ""
+
+#: ../options.php:196
+msgid "Display popup vignettes."
+msgstr ""
+
+#: ../options.php:198
+msgid "Display popup excerpt."
+msgstr ""
+
+#: ../options.php:200
+msgid "Display vignettes."
+msgstr ""
+
+#: ../options.php:200
+msgid ""
+"Do not check this if you are concerned about optimizing your website load "
+"time."
+msgstr ""
+
+#: ../options.php:202
+msgid "Display titles."
+msgstr ""
+
+#: ../options.php:205
+msgid "Index order"
+msgstr ""
+
+#: ../options.php:207
+msgid "Alphabetical"
+msgstr ""
+
+#: ../options.php:208
+msgid "Chronological"
+msgstr ""
+
+#: ../options.php:209
+msgid "Reverse chronological"
+msgstr ""
+
+#: ../options.php:212
+msgid "Vignettes size"
+msgstr ""
+
+#: ../options.php:213
+msgid ""
+"The plugin always try to display the wordpress thumbnails, so using the "
+"thumbnail wordpress size is very optimized."
+msgstr ""
+
+#: ../options.php:216
+msgid "Use wordpress thumbnails size."
+msgstr ""
+
+#: ../options.php:217
+msgid "Width"
+msgstr ""
+
+#: ../options.php:218
+msgid "Height"
+msgstr ""
+
+#: ../options.php:221
+msgid "Default vignette"
+msgstr ""
+
+#: ../options.php:223
+msgid ""
+"Choose the vignette to display when there is no image associate with a post:"
+msgstr ""
+
+#: ../options.php:226
+msgid "default vignette"
+msgstr ""
+
+#: ../options.php:228
+msgid "Other"
+msgstr ""
+
+#: ../options.php:228
+#, php-format
+msgid "&mdash;&nbsp;image's URL, %dx%dpx preferably:"
+msgstr ""
+
+#: ../options.php:233
+msgid "Categories"
+msgstr ""
+
+#: ../options.php:235
+msgid "Use categories instead indexor system."
+msgstr ""
+
+#: ../options.php:236
+msgid ""
+"So, you have to use [index=category-id]. Look the <em>Categories</em> page "
+"to know your category id. And the indexor box will be useless"
+msgstr ""
+
+#: ../options.php:247
+msgid "Index importation"
+msgstr ""
+
+#: ../options.php:248
+msgid ""
+"The importation recognize all URL which match <code>href=\"http://yoursite."
+"com/your-post/\"</code> and verify if <code>your-post</code> is a real post "
+"in your blog. If it's true, your post is adding in the given index."
+msgstr ""
+
+#: ../options.php:251
+msgid ""
+"Indicate the exact name of the index in which you want to import yours posts:"
+msgstr ""
+
+#: ../options.php:255
+msgid "Paste here the html code where are the posts you want importing"
+msgstr ""
